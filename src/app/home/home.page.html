@@ -1,14 +1,62 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Ionic Blank
+    <ion-title class="toolbar">
+      GoGPA
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    College GPA Calculator
+  </div>
+
+  <div class="ion-padding">
+    <div>
+      <ion-item>
+        <ion-label position="floating">Total GPA Units Attempted: </ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+    </div>
+    <div>
+      <ion-item>
+        <ion-label position="floating">Total Grade Points:</ion-label>
+        <ion-input type="number"></ion-input>
+      </ion-item>
+    </div>
+  </div>
+
+  <div class="ion-padding">
+    <div class="ion-padding">
+      <div>
+        <ion-item>
+          <ion-label position="floating">Course:</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+      </div>
+      <div class="box">
+        <ion-item>
+          <ion-label>Grade</ion-label>
+          <ion-select placeholder="Select a grade">
+            <ion-select-option value="A">A</ion-select-option>
+            <ion-select-option value="A-">A-</ion-select-option>
+            <ion-select-option value="B+">B+</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </div>  
+      <div>
+        <ion-item>
+          <ion-label position="floating">Credit:</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+      </div>  
+    </div>
+    <div>
+      <ion-row center>  
+        <ion-col text-center>   
+          <ion-button color="primary">Add another class</ion-button>
+        </ion-col> 
+       </ion-row>
+    </div>
   </div>
 </ion-content>
