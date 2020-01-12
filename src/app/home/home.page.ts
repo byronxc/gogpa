@@ -6,8 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  items = [{'class' : 'ion-padding'}];
+  constructor() {
 
-  constructor() {}
-
+  }
+  addNewCourse() {
+    this.items.push({'class' : 'ion-padding'});
 }
+  
+}
+
 
