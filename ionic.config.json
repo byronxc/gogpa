@@ -1,5 +1,7 @@
 {
   "name": "gogpa",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
